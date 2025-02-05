@@ -1,9 +1,13 @@
 import "./styles.css";
 
-import { Home } from "./home.js";
+import { loadHome } from "./home.js";
+
+console.log("hello");
 
 let content = document.getElementById("content");
 
-content.innerHTML = Home;
+let homeContent = loadHome();
+
+content.appendChild(homeContent);
 
 //function to change pages
