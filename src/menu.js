@@ -2,9 +2,11 @@ const loadMenu = () => {
   console.log("menu has been loaded");
   //create page div
   let menuContent = document.createElement("div");
+  menuContent.className = "menu-content";
 
   //drinks div with a title and grid of available drinks (6)
   let drinksContent = document.createElement("div");
+  drinksContent.className = "drinks-content";
 
   //drinks heading
   let drinksTitle = document.createElement("h2");
@@ -50,12 +52,13 @@ const loadMenu = () => {
 
   //create food div with a title and grid of available meals (9)
   let foodContent = document.createElement("div");
+  foodContent.className = "food-content";
 
   //drinks heading
   let foodTitle = document.createElement("h2");
   foodTitle.className = "menu-title";
   foodTitle.textContent = "Food";
-  drinksContent.appendChild(foodTitle);
+  foodContent.appendChild(foodTitle);
 
   //drinks list
   let foodList = document.createElement("div");
