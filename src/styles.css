@@ -1,4 +1,9 @@
 /*global*/
+* {
+  font-family: "Michroma", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 header {
   background-color: white;
@@ -85,4 +90,43 @@ img {
 }
 
 #drink-image {
+}
+
+/*menu page*/
+
+.menu-title {
+}
+
+.avail-drinks {
+}
+
+.avail-food {
+}
+
+/*about page*/
+.about-content {
+}
+
+.left-content {
+}
+
+#ship-image {
+}
+
+.about-about {
+}
+
+.about-title {
+}
+
+.about-text {
+}
+
+.right-about {
+}
+
+.find-us-about {
+}
+
+.contact-us-about {
 }

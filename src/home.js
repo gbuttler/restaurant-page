@@ -2,10 +2,9 @@ import tenForwardView from "./images/ten-forward-view.jpg";
 import drink from "./images/drink.jpg";
 
 const loadHome = () => {
-  console.log("boop");
+  console.log("home has been loaded");
   //create homepage div
   let homeContent = document.createElement("div");
-
   homeContent.className = "home-content";
 
   //create first image on page
