@@ -22,6 +22,7 @@ header h1 {
   margin-bottom: 0;
   padding-left: 70px;
   font-size: 50px;
+  font-weight: bold;
 }
 
 #nav-buttons {
@@ -32,6 +33,7 @@ header h1 {
 header button {
   margin-left: 10px;
   margin-right: 10px;
+  font-weight: bold;
 }
 
 body {
