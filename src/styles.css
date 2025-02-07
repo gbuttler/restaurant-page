@@ -198,6 +198,7 @@ header button:hover {
 }
 
 #content {
+  align-self: center;
 }
 
 footer {
@@ -243,7 +244,7 @@ footer p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 #view-image {
@@ -263,67 +264,127 @@ img {
 .menu-content {
   display: grid;
   grid-template-rows: 1fr 1fr;
+  font-size: 1.5vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .drinks-content {
   display: grid;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 2fr 4fr;
   border: var(--blue) solid 1px;
   margin: 5px;
   border-radius: 20px;
+
+  justify-items: center;
+  align-items: center;
 }
 
 .food-content {
   display: grid;
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: 2fr 4fr;
   border: var(--lilac) solid 1px;
   margin: 5px;
   border-radius: 20px;
+
+  justify-items: center;
+  align-items: center;
 }
 
 .menu-title {
   justify-self: center;
   font-weight: bold;
+  font-size: large;
 }
 
 .menu-text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 6px;
   justify-items: center;
+  align-items: center;
   padding: 3px;
   border-radius: 20px;
 }
 
 .avail-drinks {
+  min-height: 9vh;
 }
 
 .avail-food {
+  min-height: 9vh;
 }
 
 /*about page*/
 .about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  justify-items: center;
+  padding: 15px;
 }
 
-.left-content {
+.left-about {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+  width: 100%;
+  /* margin: 3px; */
 }
 
 #ship-image {
+  max-width: 70%;
+  justify-self: center;
 }
 
 .about-about {
+  display: grid;
+  grid-template-rows: 3fr 5fr;
+  justify-items: center;
+  border: var(--blue) solid 1px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+  max-height: 25vh;
 }
 
 .about-title {
+  justify-self: center;
+  font-weight: bold;
+  font-size: large;
+  background-color: transparent;
 }
 
 .about-text {
+  font-size: 1.1vw;
+  background-color: transparent;
 }
 
 .right-about {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+
+  width: 100%;
 }
 
 .find-us-about {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  justify-items: center;
+  border: var(--orange) solid 1px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+  max-height: 25vh;
 }
 
 .contact-us-about {
+  display: grid;
+  grid-template-rows: 2fr 3fr;
+  justify-items: center;
+  border: var(--lilac) solid 1px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 2px;
+  max-height: 25vh;
 }

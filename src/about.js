@@ -31,7 +31,8 @@ const loadAbout = () => {
   //about para
   let aboutPara = document.createElement("p");
   aboutPara.className = "about-text";
-  aboutPara.textContent = "all about the enterprise.....";
+  aboutPara.textContent =
+    "Ten Forward is the best (and only) real-life lounge aboard the USS Enterprise (NCC-1701-D).";
   about.appendChild(aboutPara);
 
   //right hand div (to contain find us and contact)
@@ -47,13 +48,14 @@ const loadAbout = () => {
   let findUsTitle = document.createElement("h2");
   findUsTitle.className = "about-title";
   findUsTitle.textContent = "Find Us";
-  about.appendChild(findUsTitle);
+  findUs.appendChild(findUsTitle);
 
   //find us para
   let findUsPara = document.createElement("p");
   findUsPara.className = "about-text";
-  findUsPara.textContent = "find us.... please";
-  about.appendChild(findUsPara);
+  findUsPara.textContent =
+    "You can find us at the front of Deck 10. You obviously have to be on-board the ship. If you aren't on-board the ship, we reccomend you contact Starfleet command.";
+  findUs.appendChild(findUsPara);
 
   //contact div
   let contactUs = document.createElement("div");
@@ -64,13 +66,14 @@ const loadAbout = () => {
   let contactUsTitle = document.createElement("h2");
   contactUsTitle.className = "about-title";
   contactUsTitle.textContent = "Contact Us";
-  about.appendChild(contactUsTitle);
+  contactUs.appendChild(contactUsTitle);
 
   //contact para
   let contactUsPara = document.createElement("p");
   contactUsPara.className = "about-text";
-  contactUsPara.textContent = "contact us.... if you can find us";
-  about.appendChild(contactUsPara);
+  contactUsPara.textContent =
+    "Contact us using your comm badge, or your nearest comm panel.";
+  contactUs.appendChild(contactUsPara);
 
   //append everything to about content
   aboutContent.appendChild(leftAbout);
