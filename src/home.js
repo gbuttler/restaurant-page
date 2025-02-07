@@ -26,7 +26,7 @@ const loadHome = () => {
   testimonyHome.id = "testimony-home";
   let testimonyText = document.createElement("p");
   testimonyText.className = "home-text";
-  testimonyText.textContent = `"Ten Forward is the hub of the ship's social activity. Everyone on board comes here." Jean-Luc Picard`;
+  testimonyText.textContent = `"Ten Forward is the hub of the ship's social activity. Everyone on board comes here." -- Jean-Luc Picard`;
   testimonyHome.appendChild(testimonyText);
 
   //create final image
